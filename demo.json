@@ -1,0 +1,105 @@
+{
+  "editor.formatOnSave": true, // 每次保存的时候自动格式化（编辑器）
+  "eslint.autoFixOnSave": true,
+  "git.ignoreMissingGitWarning": true,
+  "scm.alwaysShowActions": true,
+  "workbench.sideBar.location": "left",
+  "git.enableSmartCommit": true,
+  "files.associations": {
+    ".vue": "vue",
+    "*.scss": "scss",
+    ".ts": "ts"
+  },
+  // 修改编辑器veter插件的prettier格式默认配置
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "printWidth": 200, // 单行长度，默认80
+      "singleQuote": true, // 单引号
+      "trailingComma": "none", // 在对象或数组最后一个元素后面是否加逗号
+      "bracketSpacing": true, // 在对象，数组括号与文字之间加空格 "{ foo: bar }"
+      "jsxBracketSameLine": true, // 在jsx中把'>' 是否单独放一行
+      "semi": false
+    }
+  },
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.renderControlCharacters": true,
+  "editor.snippetSuggestions": "top",
+  "files.autoGuessEncoding": true,
+  "files.autoSave": "afterDelay",
+  "files.trimTrailingWhitespace": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "javascript.inlayHints.parameterNames.enabled": "all", // 配置参数inlay提示
+  "editor.unfoldOnClickAfterEndOfLine": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "fileheader.customMade": { // 头部注释
+    "autoAdd": false, //关闭自动生成头部注释
+  },
+  "fileheader.cursorMode": { // 此为函数注释
+    "Description": "",
+    "Author": "MrRabbit",
+    "Date": "",
+    "param": "",
+    "return": ""
+  },
+  "editor.tabSize": 2,
+  "[scss]": {
+    "editor.defaultFormatter": "Wscats.eno"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "typescript.check.npmIsInstalled": true,
+  "typescript.format.enable": true,
+  "typescript.format.semicolons": "ignore",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.suggest.autoImports": true,
+  "typescript.inlayHints.parameterNames.enabled": "all", // 配置参数inlay提示
+  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.fontWeight": "normal",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSpacing": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 200,
+  "prettier.trailingComma": "none", // 在对象或数组最后一个元素后面是否加逗号
+  "prettier.bracketSpacing": true, // 在对象，数组括号与文字之间加空格 "{ foo: bar }"
+  "prettier.semi": false,
+  "[javascript]": {
+    "editor.defaultFormatter": "Wscats.eno",
+    "editor.formatOnSave": true
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "workbench.colorTheme": "One Dark Pro",
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.accessibilitySupport": "off",
+  "terminal.integrated.fontFamily": "Meslo LG S DZ for Powerline",
+  "[less]": {
+    "editor.defaultFormatter": "Wscats.eno"
+  },
+  "git.confirmSync": false,
+  "git.ignoreRebaseWarning": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "workbench.iconTheme": "material-icon-theme"
+}

@@ -1,0 +1,83 @@
+{
+  "editor.tabSize": 2,
+  "editor.formatOnSave": true, // 每次保存的时候自动格式化（编辑器）
+  "editor.fontFamily": "Fira Code",
+  "editor.fontFamily": "Cascadia Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.fontWeight": "normal",
+  "editor.renderControlCharacters": true,
+  "editor.snippetSuggestions": "top",
+  "editor.unfoldOnClickAfterEndOfLine": true,
+  "editor.accessibilitySupport": "off",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "eslint.autoFixOnSave": true,
+  "files.associations": {
+    ".vue": "vue",
+    "*.scss": "scss",
+    ".ts": "ts"
+  },
+  "files.autoGuessEncoding": true,
+  "files.autoSave": "afterDelay",
+  "files.trimTrailingWhitespace": true,
+  "fileheader.customMade": { // 头部注释
+    "autoAdd": false, //关闭自动生成头部注释
+  },
+  "fileheader.cursorMode": { // 此为函数注释
+    "Description": "",
+    "Author": "MrRabbit",
+    "Date": "",
+    "param": "",
+    "return": ""
+  },
+  "prettier.arrowParens": "avoid",
+  "prettier.bracketSpacing": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "prettier.printWidth": 120,
+  "prettier.trailingComma": "none", // 在对象或数组最后一个元素后面是否加逗号
+  "prettier.bracketSpacing": true, // 在对象，数组括号与文字之间加空格 "{ foo: bar }"
+  "prettier.semi": false,
+  "[scss]": {
+    "editor.defaultFormatter": "Wscats.eno"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": false,
+  "javascript.inlayHints.parameterNames.enabled": "all", // 配置参数inlay提示
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "typescript.check.npmIsInstalled": true,
+  "typescript.format.enable": true,
+  "typescript.format.semicolons": "ignore",
+  "typescript.preferences.quoteStyle": "single",
+  "typescript.suggest.autoImports": true,
+  "typescript.inlayHints.parameterNames.enabled": "all", // 配置参数inlay提示
+  "git.confirmSync": false,
+  "git.ignoreRebaseWarning": true,
+  "git.ignoreMissingGitWarning": true,
+  "git.enableSmartCommit": true,
+  "scm.alwaysShowActions": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "terminal.integrated.fontFamily": "Meslo LG S DZ for Powerline",
+  "workbench.sideBar.location": "left",
+  "workbench.colorTheme": "One Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+}
